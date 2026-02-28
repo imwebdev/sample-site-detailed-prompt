@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorials — vMix Production Hub</title>
+  <meta name="description" content="Step-by-step vMix tutorials for beginners to advanced users — covering NDI, audio, streaming, replay, virtual sets, and more.">
+  <meta property="og:title" content="Tutorials — vMix Production Hub">
+  <meta property="og:description" content="Step-by-step vMix tutorials for beginners to advanced users.">
+  <meta property="og:image" content="https://picsum.photos/1200/630">
+  <link rel="canonical" href="./tutorials.html">
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" role="banner">
+    <div class="container">
+      <a href="../index.html" class="nav-logo" aria-label="vMix Hub Home">v<span>Mix</span> Hub</a>
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="./features.html">Features</a>
+        <a href="./tutorials.html">Tutorials</a>
+        <a href="./workflows.html">Workflows</a>
+        <a href="./resources.html">Resources</a>
+        <a href="https://www.vmix.com/software/download.aspx" class="nav-cta" target="_blank" rel="noopener noreferrer">Get vMix Free</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="../index.html">Home</a>
+    <a href="./features.html">Features</a>
+    <a href="./tutorials.html">Tutorials</a>
+    <a href="./workflows.html">Workflows</a>
+    <a href="./resources.html">Resources</a>
+    <a href="https://www.vmix.com/software/download.aspx" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Get vMix Free</a>
+  </div>
+
+  <main>
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero" aria-label="Page header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <span aria-current="page">Tutorials</span>
+        </nav>
+        <h1>Tutorials</h1>
+        <p>From first-time setup to advanced scripting — find the guide you need to level up your vMix productions.</p>
+      </div>
+    </section>
+
+    <!-- ===== TUTORIALS CONTENT ===== -->
+    <section aria-label="Tutorial listing">
+      <div class="container">
+        <div class="tutorials-layout">
+
+          <!-- Main Content -->
+          <div class="tutorials-main">
+            <!-- Search -->
+            <div class="search-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="text" id="tutorial-search" placeholder="Search tutorials by title or tag..." aria-label="Search tutorials">
+            </div>
+
+            <!-- Tutorial 1 -->
+            <article class="tutorial-list-card" data-tags="ndi networking beginner setup">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide1/480/320" alt="NDI network setup with multiple sources" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge beginner">Beginner</span>
+                  <span class="tutorial-time">15 min read</span>
+                </div>
+                <h3>Getting Started with NDI in vMix</h3>
+                <p>Learn how to discover, add, and configure NDI video sources on your network. Covers NDI Tools, bandwidth considerations, and multi-source setups.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">NDI</span>
+                  <span class="tutorial-tag">Networking</span>
+                  <span class="tutorial-tag">Setup</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 2 -->
+            <article class="tutorial-list-card" data-tags="audio mixer eq compression intermediate">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide2/480/320" alt="vMix audio mixer with EQ and bus routing" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge intermediate">Intermediate</span>
+                  <span class="tutorial-time">20 min read</span>
+                </div>
+                <h3>Mastering the vMix Audio Mixer</h3>
+                <p>Deep dive into audio bus routing, per-channel EQ, compression, delay, and monitoring configurations for broadcast-quality sound.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">Audio</span>
+                  <span class="tutorial-tag">Mixer</span>
+                  <span class="tutorial-tag">EQ</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 3 -->
+            <article class="tutorial-list-card" data-tags="replay sports instant advanced">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide3/480/320" alt="Instant replay controller with marked highlights" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge advanced">Advanced</span>
+                  <span class="tutorial-time">25 min read</span>
+                </div>
+                <h3>Instant Replay for Live Sports</h3>
+                <p>Set up multi-angle instant replay with slow-motion, event marking, and hardware controller integration for professional sports coverage.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">Replay</span>
+                  <span class="tutorial-tag">Sports</span>
+                  <span class="tutorial-tag">Advanced</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 4 -->
+            <article class="tutorial-list-card" data-tags="streaming rtmp youtube facebook beginner">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide4/480/320" alt="Multi-platform streaming configuration screen" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge beginner">Beginner</span>
+                  <span class="tutorial-time">10 min read</span>
+                </div>
+                <h3>Multi-Platform Streaming Setup</h3>
+                <p>Configure vMix to stream simultaneously to YouTube, Facebook Live, and Twitch with optimised bitrate and encoder settings.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">Streaming</span>
+                  <span class="tutorial-tag">RTMP</span>
+                  <span class="tutorial-tag">YouTube</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 5 -->
+            <article class="tutorial-list-card" data-tags="virtual sets chroma key green screen intermediate">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide5/480/320" alt="Virtual set with chroma key presenter" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge intermediate">Intermediate</span>
+                  <span class="tutorial-time">18 min read</span>
+                </div>
+                <h3>Building Virtual Sets with Chroma Key</h3>
+                <p>Create professional virtual environments using vMix's built-in chroma key. Learn lighting tips, spill removal, and camera positioning.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">Virtual Sets</span>
+                  <span class="tutorial-tag">Chroma Key</span>
+                  <span class="tutorial-tag">Green Screen</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 6 -->
+            <article class="tutorial-list-card" data-tags="scripting api automation advanced vb.net">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide6/480/320" alt="vMix scripting editor with VB.NET code" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge advanced">Advanced</span>
+                  <span class="tutorial-time">30 min read</span>
+                </div>
+                <h3>Automating vMix with Scripting &amp; API</h3>
+                <p>Use vMix's built-in scripting engine and HTTP API to automate transitions, trigger events, and build custom control interfaces.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">Scripting</span>
+                  <span class="tutorial-tag">API</span>
+                  <span class="tutorial-tag">VB.NET</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 7 -->
+            <article class="tutorial-list-card" data-tags="titles lower thirds graphics data beginner">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide7/480/320" alt="Lower third title editor in GT Designer" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge beginner">Beginner</span>
+                  <span class="tutorial-time">12 min read</span>
+                </div>
+                <h3>Creating Dynamic Lower Thirds</h3>
+                <p>Design custom lower thirds and name straps using the GT Title Editor. Connect to data sources like Excel and CSV for automated updates.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">Titles</span>
+                  <span class="tutorial-tag">Graphics</span>
+                  <span class="tutorial-tag">Data Sources</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tutorial 8 -->
+            <article class="tutorial-list-card" data-tags="srt remote contribution intermediate protocol">
+              <div class="tutorial-list-image">
+                <img src="https://picsum.photos/seed/tguide8/480/320" alt="SRT protocol diagram showing caller and listener" width="480" height="320" loading="lazy">
+              </div>
+              <div class="tutorial-list-body">
+                <div class="tutorial-meta">
+                  <span class="difficulty-badge intermediate">Intermediate</span>
+                  <span class="tutorial-time">22 min read</span>
+                </div>
+                <h3>Remote Contribution with SRT</h3>
+                <p>Set up SRT caller and listener modes for reliable remote feeds. Covers port forwarding, latency tuning, and failover strategies.</p>
+                <div class="tutorial-tags">
+                  <span class="tutorial-tag">SRT</span>
+                  <span class="tutorial-tag">Remote</span>
+                  <span class="tutorial-tag">Protocol</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="tutorials-sidebar" aria-label="Tutorial filters">
+            <div class="sidebar-block">
+              <h4>Categories</h4>
+              <label><input type="checkbox" value="networking"> Networking &amp; NDI</label>
+              <label><input type="checkbox" value="audio"> Audio</label>
+              <label><input type="checkbox" value="streaming"> Streaming</label>
+              <label><input type="checkbox" value="graphics"> Graphics &amp; Titles</label>
+              <label><input type="checkbox" value="virtual-sets"> Virtual Sets</label>
+              <label><input type="checkbox" value="replay"> Replay</label>
+              <label><input type="checkbox" value="scripting"> Scripting &amp; API</label>
+            </div>
+
+            <div class="sidebar-block">
+              <h4>Popular Tags</h4>
+              <div class="popular-tags">
+                <span class="popular-tag">NDI</span>
+                <span class="popular-tag">SRT</span>
+                <span class="popular-tag">Audio</span>
+                <span class="popular-tag">Streaming</span>
+                <span class="popular-tag">Chroma Key</span>
+                <span class="popular-tag">Replay</span>
+                <span class="popular-tag">RTMP</span>
+                <span class="popular-tag">API</span>
+                <span class="popular-tag">Titles</span>
+                <span class="popular-tag">Data Sources</span>
+              </div>
+            </div>
+
+            <div class="sidebar-block">
+              <h4>Difficulty</h4>
+              <label><input type="checkbox" value="beginner"> Beginner</label>
+              <label><input type="checkbox" value="intermediate"> Intermediate</label>
+              <label><input type="checkbox" value="advanced"> Advanced</label>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="../index.html" class="nav-logo" aria-label="vMix Hub Home">v<span>Mix</span> Hub</a>
+          <p style="margin-top:1rem;">Your go-to resource for mastering live video production with vMix.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./tutorials.html">Tutorials</a></li>
+            <li><a href="./workflows.html">Workflows</a></li>
+            <li><a href="./resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://www.vmix.com/knowledgebase/" target="_blank" rel="noopener noreferrer">Knowledge Base</a></li>
+            <li><a href="https://forums.vmix.com/" target="_blank" rel="noopener noreferrer">Community Forums</a></li>
+            <li><a href="https://www.vmix.com/software/download.aspx" target="_blank" rel="noopener noreferrer">Download vMix</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Have questions? Reach out through our community channels or social media.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 vMix Production Hub. Community fan site — not affiliated with StudioCoast Pty Ltd.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

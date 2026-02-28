@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workflows — vMix Production Hub</title>
+  <meta name="description" content="Step-by-step vMix production workflows for single-camera streaming, multi-camera live events, and replay-driven highlight productions.">
+  <meta property="og:title" content="Workflows — vMix Production Hub">
+  <meta property="og:description" content="Step-by-step vMix production workflows for every scenario.">
+  <meta property="og:image" content="https://picsum.photos/1200/630">
+  <link rel="canonical" href="./workflows.html">
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" role="banner">
+    <div class="container">
+      <a href="../index.html" class="nav-logo" aria-label="vMix Hub Home">v<span>Mix</span> Hub</a>
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="./features.html">Features</a>
+        <a href="./tutorials.html">Tutorials</a>
+        <a href="./workflows.html">Workflows</a>
+        <a href="./resources.html">Resources</a>
+        <a href="https://www.vmix.com/software/download.aspx" class="nav-cta" target="_blank" rel="noopener noreferrer">Get vMix Free</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="../index.html">Home</a>
+    <a href="./features.html">Features</a>
+    <a href="./tutorials.html">Tutorials</a>
+    <a href="./workflows.html">Workflows</a>
+    <a href="./resources.html">Resources</a>
+    <a href="https://www.vmix.com/software/download.aspx" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Get vMix Free</a>
+  </div>
+
+  <main>
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero" aria-label="Page header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <span aria-current="page">Workflows</span>
+        </nav>
+        <h1>Production Workflows</h1>
+        <p>Follow these battle-tested, step-by-step workflows to set up and execute professional live productions with vMix.</p>
+      </div>
+    </section>
+
+    <!-- ===== WORKFLOW 1: Single-Camera Stream ===== -->
+    <section aria-label="Single-camera stream setup workflow">
+      <div class="container">
+        <div class="workflow-guide" data-animate>
+          <p class="section-label">Workflow 1</p>
+          <h2>Single-Camera Stream Setup</h2>
+          <p>The essential workflow for getting a single camera online and streaming to your platform of choice in under 30 minutes.</p>
+
+          <div class="timeline">
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">1</div>
+              <h3>Connect Your Camera</h3>
+              <p>Plug your camera into the capture card via HDMI or SDI. Open vMix and add a new Camera input — select your capture device from the list. Verify the resolution and frame rate match your camera output.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">2</div>
+              <h3>Configure Audio</h3>
+              <p>Add your microphone as an Audio Input (or use embedded camera audio). Open the Audio Mixer and set levels — aim for peaks around -12dB to -6dB. Enable a noise gate if you're in a noisy environment.</p>
+              <div class="tip-callout">
+                <strong>Pro Tip</strong>
+                Use headphones connected to the Bus B output for monitoring without feedback. Route your microphone to Bus A (stream) and Bus B (headphones).
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">3</div>
+              <h3>Add Overlays &amp; Graphics</h3>
+              <p>Add a lower-third title using the GT Title Editor. Assign it to Overlay 1 so you can toggle it on and off during your stream. Add your logo as an Image input on Overlay 2.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">4</div>
+              <h3>Set Up Streaming Destination</h3>
+              <p>Go to Stream Settings and select your platform (YouTube, Twitch, Facebook, or Custom RTMP). Paste your stream key and set the bitrate — 4500 Kbps for 1080p30 is a good starting point.</p>
+              <div class="tip-callout">
+                <strong>Pro Tip</strong>
+                Run a 60-second test stream first using a private/unlisted event. Check for dropped frames and audio sync before going live to your audience.
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">5</div>
+              <h3>Go Live &amp; Monitor</h3>
+              <p>Click the Stream button to begin. Monitor the streaming status bar for dropped frames, bitrate stability, and CPU usage. Use the web controller on your phone for quick overlay toggles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WORKFLOW 2: Multi-Camera Live Event ===== -->
+    <section aria-label="Multi-camera live event workflow">
+      <div class="container">
+        <div class="workflow-guide" data-animate>
+          <p class="section-label">Workflow 2</p>
+          <h2>Multi-Camera Live Event</h2>
+          <p>A comprehensive workflow for producing multi-camera events — conferences, church services, concerts, and corporate broadcasts.</p>
+
+          <div class="timeline">
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">1</div>
+              <h3>Plan Your Input Layout</h3>
+              <p>Map out your camera positions: wide shot, presenter close-up, audience/stage, and content slides. Decide whether to use HDMI capture cards, NDI cameras, or a mix of both. Label each input clearly in vMix.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">2</div>
+              <h3>Configure NDI Sources</h3>
+              <p>For NDI cameras, ensure all devices are on the same network subnet. Add each NDI source as an input in vMix. Set the NDI bandwidth to the highest quality your network can support.</p>
+              <div class="tip-callout">
+                <strong>Pro Tip</strong>
+                Use a dedicated Gigabit switch for NDI traffic. Avoid WiFi for video sources — wired connections ensure consistent, low-latency feeds.
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">3</div>
+              <h3>Build Your Graphics Package</h3>
+              <p>Create lower thirds, title cards, countdown timers, and social media tickers in the GT Title Editor. Prepare a spreadsheet data source for dynamic name updates between speakers.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">4</div>
+              <h3>Set Up Multi-View &amp; Tally</h3>
+              <p>Configure the Multi-View output on a secondary monitor showing all camera inputs. Enable tally lights so camera operators can see when they are live (red) or in preview (green).</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">5</div>
+              <h3>Configure Recording &amp; Streaming</h3>
+              <p>Set up simultaneous recording (high-quality MP4 for post-production) and streaming (optimised bitrate for your platform). Use different encoder presets for each output.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">6</div>
+              <h3>Run a Full Rehearsal</h3>
+              <p>Execute a complete technical rehearsal before the event. Test every camera switch, overlay, audio source, and stream destination. Verify recording is capturing properly. Document any issues and fix them before show time.</p>
+              <div class="tip-callout">
+                <strong>Pro Tip</strong>
+                Create a vMix preset file (.vmix) after rehearsal. This saves your entire production setup and can be reloaded instantly if anything goes wrong before the event.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WORKFLOW 3: Replay & Highlights ===== -->
+    <section aria-label="Replay and highlights production workflow">
+      <div class="container">
+        <div class="workflow-guide" data-animate>
+          <p class="section-label">Workflow 3</p>
+          <h2>Replay &amp; Highlights Production</h2>
+          <p>Set up instant replay and highlight compilation for sports, esports, and any production that benefits from showing key moments again.</p>
+
+          <div class="timeline">
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">1</div>
+              <h3>Enable Instant Replay</h3>
+              <p>Open the Instant Replay panel and select which camera inputs to record for replay. Set the replay storage location to a fast SSD drive with enough capacity for the duration of your event.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">2</div>
+              <h3>Configure Replay Channels</h3>
+              <p>Select up to 4 camera angles for replay recording. Each angle records independently, allowing you to choose the best perspective during playback. Set the recording quality to match your production resolution.</p>
+              <div class="tip-callout">
+                <strong>Pro Tip</strong>
+                Use an NVMe SSD for replay storage — it handles the simultaneous read/write demands of multi-angle replay far better than traditional SATA SSDs.
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">3</div>
+              <h3>Mark Key Moments</h3>
+              <p>During the live production, press the Mark In/Out buttons (or use a hardware controller like an X-keys) to tag key moments — goals, highlights, big plays. These markers let you quickly find and replay the best moments.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">4</div>
+              <h3>Play Back in Slow Motion</h3>
+              <p>When you want to show a replay, select the event from your marked list, choose the camera angle, set the playback speed (50%, 25%, or frame-by-frame), and cut to the replay input on your program output.</p>
+            </div>
+
+            <div class="timeline-step">
+              <div class="timeline-number" aria-hidden="true">5</div>
+              <h3>Build a Highlight Reel</h3>
+              <p>After the event, use the marked events to compile a highlight reel. Export individual clips or string them together using vMix's playlist feature for a polished post-event package.</p>
+              <div class="tip-callout">
+                <strong>Pro Tip</strong>
+                Add a "REPLAY" overlay graphic on a dedicated overlay channel that automatically appears whenever you switch to the replay input. Use a vMix shortcut to trigger both the input switch and the overlay simultaneously.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="../index.html" class="nav-logo" aria-label="vMix Hub Home">v<span>Mix</span> Hub</a>
+          <p style="margin-top:1rem;">Your go-to resource for mastering live video production with vMix.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./tutorials.html">Tutorials</a></li>
+            <li><a href="./workflows.html">Workflows</a></li>
+            <li><a href="./resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://www.vmix.com/knowledgebase/" target="_blank" rel="noopener noreferrer">Knowledge Base</a></li>
+            <li><a href="https://forums.vmix.com/" target="_blank" rel="noopener noreferrer">Community Forums</a></li>
+            <li><a href="https://www.vmix.com/software/download.aspx" target="_blank" rel="noopener noreferrer">Download vMix</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Have questions? Reach out through our community channels or social media.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 vMix Production Hub. Community fan site — not affiliated with StudioCoast Pty Ltd.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
